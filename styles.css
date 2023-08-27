@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #000000;
+    background-color: #3a3737;
     color: #fff;
     padding: 45px;
     text-align: center;
@@ -46,13 +46,16 @@ body {
 }
 
 nav {
-    background-color: #555553;
+    background-color: #030303;
     border-radius: 25px;
     color: #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%);
+  -webkit-backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%);
 }
 
 .logo a {
@@ -147,11 +150,16 @@ nav {
 
   /* about pfp */
   .vihaan {
-    width: 10%;
-    height: 20%;
-    border-radius: 175px;
-    text-align: center;
-    display: block;
+    
+
+
+        width: 10%;
+        height: 20%;
+      position: relative;
+      display: block;
+      margin: 0 auto;
+      border-radius: 175px;
+      box-shadow: 8px 8px 20px 2px #000000;
 
 
   }
@@ -163,7 +171,7 @@ nav {
     border-radius: 20px;
     background: #212121;
     box-shadow: 5px 5px 8px #1b1b1b,
-               -5px -5px 8px #272727;
+               -5px -5px 8px #0c0c0c;
     transition: 0.4s;
   }
   
@@ -213,9 +221,9 @@ body {
 }
 
 header {
-  background-color: #000000;
+  background-color:rgba(255,255,255,0.0);  
   color: #fff;
-  padding: 20px;
+  padding: 50px;
   text-align: center;
 }
 
@@ -268,4 +276,60 @@ h1 {
   transform: translateY(-5px);
 }
 
+h3 {
 
+
+color: whitesmoke;
+
+
+
+}
+
+h2 {
+
+color: white;
+
+}
+
+
+.card {
+  width: 700px;
+  height: 500px;
+  margin: 0 auto;
+  background-color: #0c0c0c;
+  border-radius: 8px;
+  z-index: 1;
+  text-align: center;
+ }
+ 
+ .tools {
+  display: flex;
+  align-items: center;
+  padding: 9px;
+ }
+ 
+ .circle {
+  padding: 0 4px;
+ }
+ 
+ .box {
+  display: inline-block;
+  align-items: center;
+  width: 10px;
+  height: 10px;
+  padding: 1px;
+  border-radius: 50%;
+ }
+ 
+ .red {
+  background-color: #ff605c;
+ }
+ 
+ .yellow {
+  background-color: #ffbd44;
+ }
+ 
+ .green {
+  background-color: #00ca4e;
+ }
+ 
